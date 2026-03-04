@@ -72,7 +72,7 @@ export default function RoastForm({ onGenerate, isLoading }: RoastFormProps) {
       >
         <span className="absolute inset-0 bg-gradient-to-r from-[var(--neon-accent)] to-[var(--neon-purple)] rounded-xl opacity-70 group-hover:opacity-100 transition-opacity duration-300 blur-sm"></span>
         <span className="absolute inset-0 bg-gradient-to-r from-[var(--neon-accent)] to-[var(--neon-purple)] rounded-xl"></span>
-        <div className="relative bg-slate-900 px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-all duration-300 group-hover:bg-opacity-0 group-hover:text-white">
+        <div className="cursor-pointer relative bg-slate-900 px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-all duration-300 group-hover:bg-opacity-0 group-hover:text-white">
           {isLoading ? (
             <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
           ) : (
